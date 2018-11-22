@@ -1,0 +1,17 @@
+{
+  "name": "leap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/styles.scss dist/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DL",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.18.6"
+  }
+}
